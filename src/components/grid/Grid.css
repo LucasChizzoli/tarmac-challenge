@@ -1,0 +1,17 @@
+@media screen and (min-width: 400px) {
+  .grid-wrapper  {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell-wrapper {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .cell-wrapper {
+    width: calc(100% / var(--number-of-cells-per-row));
+  }
+}
+

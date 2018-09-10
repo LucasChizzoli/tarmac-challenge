@@ -1,0 +1,8 @@
+.cell-image {
+  width: 250px;
+  height: 250px;
+}
+
+.cell img {
+  display: block;
+}
