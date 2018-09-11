@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import './Grid.css';
 import Cell from '../cell/Cell';
+import tarmacTeam from '../../tarmac-people.json';
 
 class Grid extends Component {
 
   constructor(props) {
     super(props);
     this.state = {
-      cells: props.cells || []
+      cells: tarmacTeam || []
     };
   }
 
   getTarmacTeam = () => {
-    return this.state.cells.map((c, i) => <Cell key={i} member={c} />);
+    return this.state.cells.map((c, i) => <Cell key={i} member={c} id={i} />);
   };
 
   render() {
@@ -24,9 +24,5 @@ class Grid extends Component {
     );
   };
 }
-
-Grid.propTypes = {
-  cells: PropTypes.array.isRequired
-};
 
 export default Grid;

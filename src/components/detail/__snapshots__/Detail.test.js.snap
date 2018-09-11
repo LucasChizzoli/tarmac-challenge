@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Detail /> render() renders the component 1`] = `
+<div
+  className="detail-wrapper"
+>
+  <img
+    alt="eugenia-diaz-arnesto"
+    className="detail-image"
+    onError={[Function]}
+    src="https://tarmac.io/assets/members/eugenia-diaz-arnesto.png"
+  />
+  <div
+    className="info-wrapper"
+  >
+    <h3
+      className="member-name"
+    >
+      Eugenia Díaz Arnesto
+    </h3>
+    <h4
+      className="member-role"
+    >
+      Developer
+    </h4>
+  </div>
+</div>
+`;

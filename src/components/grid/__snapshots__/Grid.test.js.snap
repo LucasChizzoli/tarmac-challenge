@@ -1,0 +1,447 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Grid /> render() renders the component 1`] = `
+<div
+  className="grid-wrapper"
+>
+  <Cell
+    id={0}
+    key="0"
+    member={
+      Object {
+        "description": "",
+        "github": "https://github.com/eugediaz",
+        "height": "500",
+        "name": "Eugenia Díaz Arnesto",
+        "pic": "eugenia-diaz-arnesto",
+        "role": "Developer",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={1}
+    key="1"
+    member={
+      Object {
+        "description": "",
+        "height": "500",
+        "name": "Cecilia Marcora",
+        "pic": "cecilia-marcora",
+        "role": "Developer",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={2}
+    key="2"
+    member={
+      Object {
+        "description": "",
+        "height": "500",
+        "name": "Sabrina Lattanzio",
+        "pic": "sabrina-lattanzio",
+        "role": "QA",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={3}
+    key="3"
+    member={
+      Object {
+        "description": "",
+        "height": "500",
+        "name": "Andrés Segurola",
+        "pic": "andres-segurola",
+        "role": "Developer",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={4}
+    key="4"
+    member={
+      Object {
+        "description": "",
+        "height": "500",
+        "name": "Agustín Cornú",
+        "pic": "agustin-cornu",
+        "role": "Developer",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={5}
+    key="5"
+    member={
+      Object {
+        "description": "",
+        "height": "500",
+        "name": "Sebastián Beceiro",
+        "pic": "seba-beceiro",
+        "role": "Developer",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={6}
+    key="6"
+    member={
+      Object {
+        "description": "",
+        "height": "500",
+        "name": "Alvaro Scuccimarra",
+        "pic": "alvaro-scuccimarra",
+        "role": "Developer",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={7}
+    key="7"
+    member={
+      Object {
+        "description": "",
+        "height": "500",
+        "name": "Gonzalo Robaina",
+        "pic": "gonzalo-robaina",
+        "role": "Developer",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={8}
+    key="8"
+    member={
+      Object {
+        "description": "",
+        "github": "https://github.com/fzagarzazu",
+        "height": "500",
+        "name": "Federico Zagarzazu",
+        "pic": "federico-zagarzazu",
+        "role": "Developer",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={9}
+    key="9"
+    member={
+      Object {
+        "description": "",
+        "github": "https://github.com/gabrielosorio",
+        "height": "500",
+        "name": "Gabriel Osorio",
+        "pic": "gabriel-osorio",
+        "role": "Developer ",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={10}
+    key="10"
+    member={
+      Object {
+        "description": "",
+        "github": "https://github.com/gmelgaba",
+        "height": "500",
+        "name": "Gonzalo Melgar",
+        "pic": "gonzalo-melgar",
+        "role": "Developer",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={11}
+    key="11"
+    member={
+      Object {
+        "description": "",
+        "github": "https://github.com/nachof",
+        "height": "500",
+        "name": "Ignacio Facello",
+        "pic": "ignacio-facello",
+        "role": "Developer",
+        "twitter": "http://twitter.com/nachof",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={12}
+    key="12"
+    member={
+      Object {
+        "description": "",
+        "github": "https://github.com/nemesys101",
+        "height": "500",
+        "name": "Juan Peón",
+        "pic": "juan-peon",
+        "role": "Developer",
+        "twitter": "http://twitter.com/neme101",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={13}
+    key="13"
+    member={
+      Object {
+        "description": "",
+        "github": "https://github.com/jandresrodriguez",
+        "height": "500",
+        "name": "Juan Rodríguez",
+        "pic": "juan-rodriguez",
+        "role": "Developer",
+        "twitter": "http://twitter.com/juan89andres",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={14}
+    key="14"
+    member={
+      Object {
+        "description": "",
+        "github": "https://github.com/julio-pintos",
+        "height": "500",
+        "name": "Julio Pintos",
+        "pic": "julio-pintos",
+        "role": "Developer",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={15}
+    key="15"
+    member={
+      Object {
+        "description": "",
+        "height": "500",
+        "name": "Marcelo Bevegni",
+        "pic": "marcelo-bevegni",
+        "role": "Operations",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={16}
+    key="16"
+    member={
+      Object {
+        "description": "",
+        "github": "https://github.com/chucho13",
+        "height": "500",
+        "name": "Mauricio Piñatares",
+        "pic": "mauricio-pinatares",
+        "role": "Developer",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={17}
+    key="17"
+    member={
+      Object {
+        "description": "",
+        "github": "https://github.com/mauriciosouto",
+        "height": "500",
+        "name": "Mauricio Souto",
+        "pic": "mauricio-souto",
+        "role": "Developer",
+        "twitter": "http://twitter.com/maurisouto",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={18}
+    key="18"
+    member={
+      Object {
+        "description": "",
+        "height": "500",
+        "name": "Pablo Caviglia",
+        "pic": "pablo-caviglia",
+        "role": "Developer",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={19}
+    key="19"
+    member={
+      Object {
+        "description": "",
+        "github": "https://github.com/pmonfort",
+        "height": "500",
+        "name": "Pablo Monfort",
+        "pic": "pablo-monfort",
+        "role": "Developer",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={20}
+    key="20"
+    member={
+      Object {
+        "description": "",
+        "github": "https://github.com/ppazos",
+        "height": "500",
+        "name": "Pablo Pazos",
+        "pic": "pablo-pazos",
+        "role": "Developer",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={21}
+    key="21"
+    member={
+      Object {
+        "description": "",
+        "height": "500",
+        "name": "Pedro Neyeloff",
+        "pic": "pedro-neyeloff",
+        "role": "Developer",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={22}
+    key="22"
+    member={
+      Object {
+        "description": "",
+        "github": "https://github.com/rdutra",
+        "height": "500",
+        "name": "Rodrigo Dutra",
+        "pic": "rodrigo-dutra",
+        "role": "Developer",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={23}
+    key="23"
+    member={
+      Object {
+        "description": "",
+        "height": "500",
+        "name": "Rodrigo Machado",
+        "pic": "rodrigo-machado",
+        "role": "Developer",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={24}
+    key="24"
+    member={
+      Object {
+        "description": "",
+        "github": "https://github.com/rordeix",
+        "height": "500",
+        "name": "Rodrigo Ordeix",
+        "pic": "rodrigo-ordeix",
+        "role": "Developer",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={25}
+    key="25"
+    member={
+      Object {
+        "description": "",
+        "github": "https://github.com/sebastiansier",
+        "height": "500",
+        "name": "Sebastián Sierra",
+        "pic": "sebastian-sierra",
+        "role": "Developer",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={26}
+    key="26"
+    member={
+      Object {
+        "description": "",
+        "height": "500",
+        "name": "Magdalena Ezeiza",
+        "pic": "magdalena-ezeiza",
+        "role": "Finance Manager",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={27}
+    key="27"
+    member={
+      Object {
+        "description": "",
+        "height": "500",
+        "name": "Diego Pedemonte",
+        "pic": "diego-pedemonte",
+        "role": "Developer",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={28}
+    key="28"
+    member={
+      Object {
+        "description": "",
+        "height": "500",
+        "name": "Damián Arrillaga",
+        "pic": "damian-arrillaga",
+        "role": "Developer",
+        "width": "500",
+      }
+    }
+  />
+  <Cell
+    id={29}
+    key="29"
+    member={
+      Object {
+        "description": "",
+        "height": "500",
+        "name": "Juan Olivera",
+        "pic": "juan-olivera",
+        "role": "Developer",
+        "width": "500",
+      }
+    }
+  />
+</div>
+`;

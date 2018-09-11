@@ -1,8 +1,10 @@
-.cell-image {
-  width: 250px;
-  height: 250px;
+.cell-wrapper {
+  flex-basis: auto;
+  width: calc(100%/8);
+  height: 12vw;
 }
 
-.cell img {
-  display: block;
+.cell-image {
+  width: 100%;
+  height: 100%;
 }

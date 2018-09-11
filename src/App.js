@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import './NumberOfCellsPerRow.css';
-import Grid from './components/grid/Grid';
 import tarmacTeam from './tarmac-people.json';
+import Routing from './components/routing/Routing';
 
 class App extends Component {
   render() {
     console.log(tarmacTeam);
     return (
       <div className="app">
-        <Grid cells={tarmacTeam}/>
+        <BrowserRouter>
+          <Routing />
+        </BrowserRouter>
       </div>
     );
   }

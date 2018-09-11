@@ -1,0 +1,19 @@
+.detail-wrapper {
+  text-align: center;
+  padding: 20px;
+}
+
+.detail-image {
+  height: 400px;
+  width: 400px;
+}
+
+.member-name {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.member-role {
+  font-size: 24px;
+  font-weight: 700;
+}

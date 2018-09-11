@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Cell /> render() renders the component 1`] = `
+<div
+  className="cell-wrapper"
+>
+  <Link
+    className="nav-item"
+    replace={false}
+    to="member/0"
+  >
+    <img
+      className="cell-image"
+      onError={[Function]}
+      src="https://tarmac.io/assets/members/undefined.png"
+    />
+  </Link>
+</div>
+`;
