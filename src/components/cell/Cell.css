@@ -1,10 +1,41 @@
-.cell-wrapper {
-  flex-basis: auto;
-  width: calc(100%/8);
-  height: 12vw;
+.cell-wrapper { 
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto; 
+  width: 200px; 
+  margin: .5vw; 
+  position: relative;
+}
+.cell-image { 
+  width: 100%; 
+  height: auto; 
 }
 
-.cell-image {
-  width: 100%;
-  height: 100%;
+.cell-over-name{
+  background: rgba(111, 100, 184, 0.7);
+  bottom: 0;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: 0.5s ease;
+  right: 0;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.cell-over-name:hover {
+  opacity: 1;
 }

@@ -6,11 +6,12 @@ import imageNotFound from '../../imageNotFound.jpg';
 import './Cell.css';
 
 const Cell = (props) => {
-  const {member, id} = props;
+  const { member, id } = props;
   return (
     <div className="cell-wrapper">
       <Link className="nav-item" to={`member/${id}`}>
-        <img alt={member.pic} src={`${PICTURE_URL}${member.pic}.png`} className="cell-image" onError={(e)=>{e.target.src=imageNotFound}} />
+        <div className="cell-over-name">{member.name}</div>
+        <img alt={member.pic} src={`${PICTURE_URL}${member.pic}.png`} className="cell-image" onError={(e) => { e.target.src = imageNotFound }} />
       </Link>
     </div>
   )

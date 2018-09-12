@@ -1,6 +1,18 @@
-.grid-wrapper  {
+.grid-wrapper { 
+  padding: .5vw;
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap; 
+  flex-flow: row wrap; 
+  display: -webkit-box;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+}
+
+@media screen and (max-width: 400px) {
+  .grid-wrapper div { margin: 0; }
+  .grid-wrapper { padding: 0; }
+  
 }
 
